@@ -1,3 +1,5 @@
+// Black and Red Solution
+
 var template = document.getElementsByTagName('body')[0];
 
 for (var i = 0; i < 99; i++) {
