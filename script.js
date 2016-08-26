@@ -6,12 +6,7 @@ for (var i = 0; i < 99; i++) {
     div.style.float = 'left';
     div.style.width = '11.1%';
     div.style.paddingBottom = '11.1%';
-
-    if (i % 2 === 0) {
-        div.style.backgroundColor = 'red';
-    } else {
-        div.style.backgroundColor = 'black';
-    }
+    div.style.backgroundColor = "#" + (Math.floor(Math.random() * 1000)).toString()
 
     template.appendChild(div);
 }
